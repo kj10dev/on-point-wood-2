@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>On-Point Wood — The Firewood Journal of Midrand</title>
+<style>
+:root{--ink:#1c1917;--brand:#c2410c;--brand2:#f97316;--gold:#b45309;--paper:#faf6f0;--green:#25D366;--line:rgba(28,25,23,.15)}
+*{margin:0;box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:Georgia,"Times New Roman",serif;-webkit-font-smoothing:antialiased}
+.disp{font-family:"Playfair Display",Georgia,serif;font-weight:900;letter-spacing:-.02em}
+.lab{font-family:Arial,Helvetica,sans-serif}
+em{font-style:italic}
+a{color:inherit;text-decoration:none}
+.kick{font-family:Arial;font-size:11px;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:var(--brand)}
+.rule{border-top:2px solid var(--brand2);padding-top:12px}
+.hr{border-top:1px solid var(--line)}
+.dots{flex:1;border-bottom:1px dotted rgba(28,25,23,.25);margin:0 12px;transform:translateY(-4px)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid var(--ink);padding:14px 32px;font-family:Arial;font-size:11px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;cursor:pointer;transition:.25s}
+.btn-ink{background:var(--ink);color:var(--paper)}.btn-ink:hover{background:var(--brand);border-color:var(--brand)}
+.btn-line:hover{border-color:var(--brand);color:var(--brand)}
+.btn-wa{background:var(--green);border-color:#128C4B;color:var(--ink)}.btn-wa:hover{background:#1eb85a}
+.fld{width:100%;border:1px solid rgba(28,25,23,.25);background:transparent;padding:12px 16px;font-family:Arial;font-size:14px;color:var(--ink);outline:none}
+.fld:focus{border-color:var(--brand)}
+.flab{display:block;margin-bottom:8px;font-family:Arial;font-size:10px;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:rgba(28,25,23,.55)}
+.elink{background-image:linear-gradient(#f97316,#f97316);background-size:0% 1px;background-repeat:no-repeat;background-position:left bottom;transition:background-size .35s}
+.elink:hover{background-size:100% 1px}
+.dropcap::first-letter{float:left;font-family:"Playfair Display",Georgia,serif;font-weight:900;font-size:4.6em;line-height:.8;padding-right:.12em;padding-top:.06em;color:var(--brand)}
+details summary{cursor:pointer;list-style:none}
+summary::-webkit-details-marker{display:none}
+</style></head><body>
+
+<!-- MASTHEAD -->
+<header style="border-bottom:1px solid var(--line)">
+  <div style="max-width:72rem;margin:auto;padding:0 24px">
+    <div class="lab" style="display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding:8px 0;font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:rgba(28,25,23,.5)">
+      <span>Vol. II · № 14</span><span style="display:none" id="tagline">The Firewood Journal of Midrand</span><span>Early Winter 2026</span>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding:24px 0">
+      <div style="display:flex;align-items:center;gap:16px">
+        <svg width="56" height="56" viewBox="0 0 100 100"><defs><linearGradient id="fl" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#ea580c"/><stop offset="55%" stop-color="#f97316"/><stop offset="100%" stop-color="#fbbf24"/></linearGradient><radialGradient id="ha" cx=".5" cy=".5" r=".5"><stop offset="0%" stop-color="#fbbf24" stop-opacity=".9"/><stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/></radialGradient></defs><circle cx="50" cy="50" r="46" fill="url(#ha)" opacity=".35"/><circle cx="50" cy="50" r="42" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="4 5" opacity=".8"/><rect x="44" y="24" width="12" height="52" rx="5" fill="#7c2d12" stroke="#3f1d0a" stroke-width="2"/><rect x="30" y="40" width="40" height="12" rx="5" fill="#9a3412" stroke="#3f1d0a" stroke-width="2"/><circle cx="50" cy="30" r="4.5" fill="#fbbf24" opacity=".9"/><circle cx="50" cy="30" r="2" fill="#7c2d12"/><path d="M50 8 C58 18 62 24 58 32 C56 27 53 26 50 30 C47 26 44 27 42 32 C38 24 42 18 50 8 Z" fill="url(#fl)"/><path d="M50 16 C54 21 55.5 24.5 53.5 29 C52.5 26.5 51.4 26.2 50 28.4 C48.6 26.2 47.5 26.5 46.5 29 C44.5 24.5 46 21 50 16 Z" fill="#fde68a"/></svg>
+        <div style="line-height:1">
+          <p class="disp" style="font-size:38px">On-Point <em style="color:var(--brand)">Wood</em></p>
+          <p class="lab" style="margin-top:8px;font-size:10px;letter-spacing:.45em;text-transform:uppercase;color:rgba(28,25,23,.5)">Holy Firewood Co. · Est. by the burn</p>
+        </div>
+      </div>
+      <nav class="lab" style="display:flex;align-items:center;gap:32px;font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase">
+        <a href="#wood" class="elink nv2">The Catalogue</a>
+        <a href="#order" class="elink nv2">Order</a>
+        <a href="#questions" class="elink nv2">Questions</a>
+        <a href="#" class="btn btn-wa" style="padding:10px 20px">WhatsApp ↗</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<!-- FRONT PAGE -->
+<section style="max-width:72rem;margin:auto;padding:56px 24px 64px">
+  <div class="rule"><p class="kick">Front Page · Firewood &amp; Hearth</p></div>
+  <h1 class="disp" style="margin-top:32px;font-size:clamp(52px,9vw,120px);line-height:.95">
+    The quiet art of<br><em style="color:var(--brand)">burning</em> well.
+  </h1>
+  <div class="hr" style="margin-top:48px;padding-top:32px;display:grid;gap:40px;grid-template-columns:1.6fr 1fr" id="herogrid">
+    <p class="dropcap" style="max-width:36rem;font-size:17px;line-height:1.85;color:rgba(28,25,23,.8)">
+      Every winter, the same question returns to the kitchens and stoops of the Highveld: what, exactly,
+      is worth burning? At On-Point Wood we hold a simple conviction — that premium <strong>thorn firewood</strong>,
+      cured for eighteen months under an unforgiving sun, deserves to be treated as an article of care rather
+      than a commodity. Each unit is split, dried and delivered with the same devotion the name suggests. We
+      deliver across Midrand and greater Johannesburg, and we take orders of ten units or more — never fewer,
+      for the fire deserves commitment.
+    </p>
+    <aside style="border-left:1px solid var(--line);padding-left:40px" id="toccol">
+      <p class="kick">In this issue</p>
+      <ul style="margin-top:16px;list-style:none;padding:0">
+        <li style="display:flex;align-items:baseline;font-size:15px;margin-bottom:12px"><span class="disp" style="font-style:italic;font-size:18px">The Catalogue</span><span class="dots"></span><span class="lab" style="font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:rgba(28,25,23,.45)">Four species</span></li>
+        <li style="display:flex;align-items:baseline;font-size:15px;margin-bottom:12px"><span class="disp" style="font-style:italic;font-size:18px">Correspondence</span><span class="dots"></span><span class="lab" style="font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:rgba(28,25,23,.45)">Place an order</span></li>
+        <li style="display:flex;align-items:baseline;font-size:15px;margin-bottom:12px"><span class="disp" style="font-style:italic;font-size:18px">Questions</span><span class="dots"></span><span class="lab" style="font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:rgba(28,25,23,.45)">Ten units, and why</span></li>
+        <li style="display:flex;align-items:baseline;font-size:15px"><span class="disp" style="font-style:italic;font-size:18px">Colophon</span><span class="dots"></span><span class="lab" style="font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:rgba(28,25,23,.45)">Find us</span></li>
+      </ul>
+      <div style="margin-top:32px;display:grid;gap:12px">
+        <a href="#order" class="btn btn-ink">Place an Order →</a>
+        <a href="#" class="btn btn-line">WhatsApp the Editors</a>
+      </div>
+    </aside>
+  </div>
+  <div class="hr lab" style="margin-top:40px;padding-top:24px;display:flex;justify-content:space-between;gap:24px;font-size:11px;letter-spacing:.25em;text-transform:uppercase;color:rgba(28,25,23,.5)" id="metarow">
+    <span>Minimum order — ten units</span><span>Delivered across greater Johannesburg</span><span>Cured eighteen months in the sun</span>
+  </div>
+</section>
+
+<!-- CATALOGUE -->
+<section id="wood" style="border-block:1px solid var(--line);background:rgba(255,255,255,.4)">
+  <div style="max-width:72rem;margin:auto;padding:80px 24px">
+    <div style="display:flex;justify-content:space-between;align-items:end;gap:24px">
+      <div><p class="kick">Section I</p><h2 class="disp" style="margin-top:12px;font-size:clamp(32px,5vw,48px)">The Catalogue</h2></div>
+      <p class="lab" style="text-align:right;font-size:11px;letter-spacing:.2em;line-height:1.7;text-transform:uppercase;color:rgba(28,25,23,.45)">Four sacred species,<br>priced per unit.<br>Minimum order: ten.</p>
+    </div>
+
+    <div style="margin-top:48px" id="catlist">
+      <!-- item -->
+      <article class="hr" style="padding:32px 0;display:grid;grid-template-columns:64px 1.5fr 1fr auto;gap:32px;align-items:baseline;transition:background .3s" onmouseover="this.style.background='rgba(255,247,237,.6)'" onmouseout="this.style.background='transparent'">
+        <span class="disp" style="font-style:italic;font-size:24px;color:rgba(28,25,23,.3)">01</span>
+        <div><h3 class="disp" style="font-size:26px">Thorn Blue Gum</h3>
+        <p class="lab" style="margin-top:4px;font-size:11px;letter-spacing:.25em;text-transform:uppercase;color:rgba(28,25,23,.45)">Eucalyptus grandis</p>
+        <p style="margin-top:12px;max-width:30rem;font-size:15px;line-height:1.7;color:rgba(28,25,23,.7)">The workhorse of a Highveld winter. Dense, golden, and entirely unbothered by a north wind.</p></div>
+        <div><p class="lab" style="font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:rgba(28,25,23,.45)">Character</p>
+        <p class="disp" style="margin-top:4px;font-style:italic;font-size:17px">Long, hot, dependable</p></div>
+        <div style="text-align:right"><p class="lab" style="font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:rgba(28,25,23,.45)">Per unit</p>
+        <p class="disp" style="font-size:30px;color:var(--brand)">R95</p>
+        <a href="#" class="lab elink" style="display:inline-block;margin-top:8px;font-size:11px;font-weight:700;letter-spacing:.2em">Order via WhatsApp →</a></div>
+      </article>
+      <article class="hr" style="padding:32px 0;display:grid;grid-template-columns:64px 1.5fr 1fr auto;gap:32px;align-items:baseline;transition:background .3s" onmouseover="this.style.background='rgba(255,247,237,.6)'" onmouseout="this.style.background='transparent'">
+        <span class="disp" style="font-style:italic;font-size:24px;color:rgba(28,25,23,.3)">02</span>
+        <div><h3 class="disp" style="font-size:26px">Black Wattle</h3>
+        <p class="lab" style="margin-top:4px;font-size:11px;letter-spacing:.25em;text-transform:uppercase;color:rgba(28,25,23,.45)">Acacia mearnsii</p>
+        <p style="margin-top:12px;max-width:30rem;font-size:15px;line-height:1.7;color:rgba(28,25,23,.7)">Burns with the patience of incense. The connoisseur's choice for the Sunday braai.</p></div>
+        <div><p class="lab" style="font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:rgba(28,25,23,.45)">Character</p>
+        <p class="disp" style="margin-top:4px;font-style:italic;font-size:17px">Slow ember, light smoke</p></div>
+        <div style="text-align:right"><p class="lab" style="font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:rgba(28,25,23,.45)">Per unit</p>
+        <p class="disp" style="font-size:30px;color:var(--brand)">R110</p>
+        <a href="#" class="lab elink" style="display:inline-block;margin-top:8px;font-size:11px;font-weight:700;letter-spacing:.2em">Order via WhatsApp →</a></div>
+      </article>
+      <article class="hr" style="padding:32px 0;display:grid;grid-template-columns:64px 1.5fr 1fr auto;gap:32px;align-items:baseline;transition:background .3s" onmouseover="this.style.background='rgba(255,247,237,.6)'" onmouseout="this.style.background='transparent'">
+        <span class="disp" style="font-style:italic;font-size:24px;color:rgba(28,25,23,.3)">03</span>
+        <div><h3 class="disp" style="font-size:26px">Sekelbos</h3>
+        <p class="lab" style="margin-top:4px;font-size:11px;letter-spacing:.25em;text-transform:uppercase;color:rgba(28,25,23,.45)">Dichrostachys cinerea</p>
+        <p style="margin-top:12px;max-width:30rem;font-size:15px;line-height:1.7;color:rgba(28,25,23,.7)">The revival fire. It takes the match readily and burns with conviction.</p></div>
+        <div><p class="lab" style="font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:rgba(28,25,23,.45)">Character</p>
+        <p class="disp" style="margin-top:4px;font-style:italic;font-size:17px">Fierce, fast, bright</p></div>
+        <div style="text-align:right"><p class="lab" style="font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:rgba(28,25,23,.45)">Per unit</p>
+        <p class="disp" style="font-size:30px;color:var(--brand)">R125</p>
+        <a href="#" class="lab elink" style="display:inline-block;margin-top:8px;font-size:11px;font-weight:700;letter-spacing:.2em">Order via WhatsApp →</a></div>
+      </article>
+      <article class="hr" style="padding:32px 0;display:grid;grid-template-columns:64px 1.5fr 1fr auto;gap:32px;align-items:baseline;transition:background .3s" onmouseover="this.style.background='rgba(255,247,237,.6)'" onmouseout="this.style.background='transparent'">
+        <span class="disp" style="font-style:italic;font-size:24px;color:rgba(28,25,23,.3)">04</span>
+        <div><h3 class="disp" style="font-size:26px">Kameeldoring</h3>
+        <p class="lab" style="margin-top:4px;font-size:11px;letter-spacing:.25em;text-transform:uppercase;color:rgba(28,25,23,.45)">Vachellia erioloba</p>
+        <p style="margin-top:12px;max-width:30rem;font-size:15px;line-height:1.7;color:rgba(28,25,23,.7)">Desert-hardened thorn. It will outlast your longest evening.</p></div>
+        <div><p class="lab" style="font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:rgba(28,25,23,.45)">Character</p>
+        <p class="disp" style="margin-top:4px;font-style:italic;font-size:17px">Coal bed until sunrise</p></div>
+        <div style="text-align:right"><p class="lab" style="font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:rgba(28,25,23,.45)">Per unit</p>
+        <p class="disp" style="font-size:30px;color:var(--brand)">R140</p>
+        <a href="#" class="lab elink" style="display:inline-block;margin-top:8px;font-size:11px;font-weight:700;letter-spacing:.2em">Order via WhatsApp →</a></div>
+      </article>
+      <div class="hr"></div>
+    </div>
+
+    <blockquote style="max-width:46rem;margin:80px auto 0;text-align:center">
+      <p class="disp" style="font-weight:500;font-style:italic;font-size:clamp(24px,3.5vw,34px);line-height:1.4;color:rgba(28,25,23,.85)">
+        &ldquo;Thorn species burn hotter, longer and cleaner than soft pine. Once you go thorn, you never go back.&rdquo;</p>
+      <cite class="lab" style="display:block;margin-top:20px;font-style:normal;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:rgba(28,25,23,.45)">— The Editors, on the subject of conviction</cite>
+    </blockquote>
+  </div>
+</section>
+
+<!-- CORRESPONDENCE -->
+<section id="order" style="max-width:72rem;margin:auto;padding:80px 24px">
+  <div style="display:grid;gap:56px;grid-template-columns:1fr 1.3fr" id="ordergrid">
+    <div>
+      <p class="kick">Section II</p>
+      <h2 class="disp" style="margin-top:12px;font-size:clamp(32px,5vw,48px)">Correspondence</h2>
+      <p style="margin-top:24px;max-width:28rem;font-size:16px;line-height:1.85;color:rgba(28,25,23,.75)">
+        There are no carts here, no accounts, no checkout counters. You write to us the way one writes
+        to a trusted supplier — with your name, your wood, your units — and your letter arrives on our
+        WhatsApp in an instant. We reply within the day.</p>
+      <ol style="margin-top:40px;list-style:none;padding:0;display:grid;gap:24px">
+        <li style="display:flex;gap:20px"><span class="disp" style="font-style:italic;font-size:28px;color:rgba(194,65,12,.6)">1.</span>
+          <div><h3 class="disp" style="font-size:19px">Compose</h3><p style="margin-top:4px;font-size:14px;line-height:1.7;color:rgba(28,25,23,.65)">Name, wood, units (ten or more), and your delivery area.</p></div></li>
+        <li style="display:flex;gap:20px"><span class="disp" style="font-style:italic;font-size:28px;color:rgba(194,65,12,.6)">2.</span>
+          <div><h3 class="disp" style="font-size:19px">Confirm</h3><p style="margin-top:4px;font-size:14px;line-height:1.7;color:rgba(28,25,23,.65)">We reply on WhatsApp with stock, price and a delivery window.</p></div></li>
+        <li style="display:flex;gap:20px"><span class="disp" style="font-style:italic;font-size:28px;color:rgba(194,65,12,.6)">3.</span>
+          <div><h3 class="disp" style="font-size:19px">Receive</h3><p style="margin-top:4px;font-size:14px;line-height:1.7;color:rgba(28,25,23,.65)">Pay on delivery or by EFT. Then light the match.</p></div></li>
+      </ol>
+    </div>
+
+    <form style="border:1px solid var(--line);background:rgba(255,255,255,.5);padding:48px" aria-label="Order form">
+      <p class="kick">Order slip</p>
+      <h3 class="disp" style="margin-top:8px;font-size:24px">Kindly supply:</h3>
+      <div style="margin-top:32px;display:grid;gap:24px;grid-template-columns:1fr 1fr" id="fgrid">
+        <div style="grid-column:1/-1"><label class="flab">Your name</label><input class="fld" placeholder="e.g. Gershwin K."></div>
+        <div><label class="flab">Wood</label><select class="fld"><option>Thorn Blue Gum</option><option>Black Wattle</option><option>Sekelbos</option><option>Kameeldoring</option></select></div>
+        <div><label class="flab">Units — minimum 10</label><input class="fld" type="number" value="10" min="10"></div>
+        <div style="grid-column:1/-1"><label class="flab">Delivery area</label><input class="fld" placeholder="e.g. Waterfall, Midrand"></div>
+        <div style="grid-column:1/-1"><label class="flab">Notes (optional)</label><textarea class="fld" rows="3" placeholder="Gate code, stacking request, the occasion…"></textarea></div>
+      </div>
+      <button class="btn btn-wa" style="margin-top:32px;width:100%">Send Order via WhatsApp ↗</button>
+      <p class="lab" style="margin-top:16px;text-align:center;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:rgba(28,25,23,.4)">Opens WhatsApp with your order pre-filled · Nothing is stored on this site</p>
+    </form>
+  </div>
+</section>
+
+<!-- FIGURES -->
+<section style="border-block:1px solid var(--line);background:var(--ink);color:var(--paper)">
+  <div class="lab" style="max-width:72rem;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:40px 24px;padding:56px 24px;text-align:center" id="statgrid">
+    <div><p class="disp" style="font-size:48px;color:var(--brand2)">10+</p><p style="margin-top:8px;font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:rgba(250,246,240,.5)">units minimum</p></div>
+    <div><p class="disp" style="font-size:48px;color:var(--brand2)">18</p><p style="margin-top:8px;font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:rgba(250,246,240,.5)">months sun-cured</p></div>
+    <div><p class="disp" style="font-size:48px;color:var(--brand2)">1,000s</p><p style="margin-top:8px;font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:rgba(250,246,240,.5)">hearths served</p></div>
+    <div><p class="disp" style="font-size:48px;color:var(--brand2)">1 day</p><p style="margin-top:8px;font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:rgba(250,246,240,.5)">whatsapp reply</p></div>
+  </div>
+</section>
+
+<!-- QUESTIONS -->
+<section id="questions" style="max-width:46rem;margin:auto;padding:80px 24px">
+  <p class="kick" style="text-align:center">Section III</p>
+  <h2 class="disp" style="margin-top:12px;text-align:center;font-size:clamp(32px,5vw,48px)">Questions, <em style="color:var(--brand)">answered.</em></h2>
+  <div style="margin-top:48px">
+    <details style="border-top:1px solid var(--line);padding:24px 4px"><summary style="display:flex;justify-content:space-between;align-items:baseline;gap:24px">
+      <span class="disp" style="font-size:19px">Why a minimum of ten units?</span><span class="disp" style="font-size:24px;font-style:italic;color:rgba(28,25,23,.3)">+</span></summary>
+      <p style="margin-top:16px;font-size:14px;line-height:1.85;color:rgba(28,25,23,.7)">Firewood logistics are a matter of scale. Ten units keeps delivery viable — and your price per unit honest.</p></details>
+    <details open style="border-top:1px solid var(--line);padding:24px 4px"><summary style="display:flex;justify-content:space-between;align-items:baseline;gap:24px">
+      <span class="disp" style="font-size:19px;color:var(--brand)">How do I pay?</span><span class="disp" style="font-size:24px;font-style:italic;color:var(--brand);transform:rotate(45deg)">+</span></summary>
+      <p style="margin-top:16px;font-size:14px;line-height:1.85;color:rgba(28,25,23,.7)">We confirm your order on WhatsApp; you then pay on delivery by cash or card, or by EFT using the details we send in the chat.</p></details>
+    <details style="border-top:1px solid var(--line);padding:24px 4px"><summary style="display:flex;justify-content:space-between;align-items:baseline;gap:24px">
+      <span class="disp" style="font-size:19px">Will you stack the wood?</span><span class="disp" style="font-size:24px;font-style:italic;color:rgba(28,25,23,.3)">+</span></summary>
+      <p style="margin-top:16px;font-size:14px;line-height:1.85;color:rgba(28,25,23,.7)">Gladly. Mention it in your order notes and our delivery team will stack it neatly — some say reverently.</p></details>
+    <details style="border-block:1px solid var(--line);padding:24px 4px"><summary style="display:flex;justify-content:space-between;align-items:baseline;gap:24px">
+      <span class="disp" style="font-size:19px">Is thorn wood truly better?</span><span class="disp" style="font-size:24px;font-style:italic;color:rgba(28,25,23,.3)">+</span></summary>
+      <p style="margin-top:16px;font-size:14px;line-height:1.85;color:rgba(28,25,23,.7)">Hotter, longer, cleaner. Soft pine is for people who have not yet been introduced to thorn.</p></details>
+  </div>
+</section>
+
+<!-- COLOPHON -->
+<footer style="border-top:1px solid var(--line);background:rgba(255,255,255,.4)">
+  <div style="max-width:72rem;margin:auto;padding:56px 24px;text-align:center">
+    <svg width="72" height="72" viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="url(#ha)" opacity=".35"/><circle cx="50" cy="50" r="42" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="4 5" opacity=".8"/><rect x="44" y="24" width="12" height="52" rx="5" fill="#7c2d12" stroke="#3f1d0a" stroke-width="2"/><rect x="30" y="40" width="40" height="12" rx="5" fill="#9a3412" stroke="#3f1d0a" stroke-width="2"/><circle cx="50" cy="30" r="4.5" fill="#fbbf24" opacity=".9"/><circle cx="50" cy="30" r="2" fill="#7c2d12"/><path d="M50 8 C58 18 62 24 58 32 C56 27 53 26 50 30 C47 26 44 27 42 32 C38 24 42 18 50 8 Z" fill="url(#fl)"/><path d="M50 16 C54 21 55.5 24.5 53.5 29 C52.5 26.5 51.4 26.2 50 28.4 C48.6 26.2 47.5 26.5 46.5 29 C44.5 24.5 46 21 50 16 Z" fill="#fde68a"/></svg>
+    <p class="disp" style="margin-top:16px;font-size:28px">On-Point <em style="color:var(--brand)">Wood</em></p>
+    <p class="lab" style="margin-top:8px;font-size:10px;letter-spacing:.45em;text-transform:uppercase;color:rgba(28,25,23,.45)">Holy Firewood Co. · Heal. Deliver. Restore. Give.</p>
+    <a href="#" class="btn btn-wa" style="margin-top:32px">Write to us on WhatsApp ↗</a>
+    <p class="lab" style="margin-top:40px;font-size:11px;letter-spacing:.25em;text-transform:uppercase;color:rgba(28,25,23,.4)">Midrand, South Africa · Monday – Saturday, 07:00 – 18:00 · © 2026 On-Point Wood</p>
+  </div>
+</footer>
+
+<script>
+// simple responsive helpers mirroring Tailwind breakpoints
+function applyResp(){
+  const w = window.innerWidth;
+  const mobile = w < 640, tablet = w < 1024;
+  document.getElementById("tagline").style.display = tablet ? "none" : "";
+  document.querySelectorAll(".nv2").forEach(a => a.style.display = mobile ? "none" : "");
+  const hg = document.getElementById("herogrid"); hg.style.gridTemplateColumns = tablet ? "1fr" : "1.6fr 1fr";
+  document.getElementById("toccol").style.borderLeft = tablet ? "none" : "1px solid var(--line)";
+  document.getElementById("toccol").style.paddingLeft = tablet ? "0" : "40px";
+  const mr = document.getElementById("metarow");
+  mr.style.flexDirection = mobile ? "column" : "row";
+  document.querySelectorAll("#catlist article").forEach(a => a.style.gridTemplateColumns = mobile ? "1fr" : "64px 1.5fr 1fr auto");
+  document.getElementById("ordergrid").style.gridTemplateColumns = tablet ? "1fr" : "1fr 1.3fr";
+  document.getElementById("fgrid").style.gridTemplateColumns = mobile ? "1fr" : "1fr 1fr";
+  document.getElementById("statgrid").style.gridTemplateColumns = mobile ? "1fr 1fr" : "repeat(4,1fr)";
+}
+window.addEventListener("resize", applyResp); applyResp();
+</script>
+</body></html>

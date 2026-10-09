@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+body { @apply bg-paper text-ink antialiased; font-family: "Source Serif 4", Georgia, "Times New Roman", serif; }
+
+.font-display { font-family: "Playfair Display", Georgia, serif; }
+.font-label { font-family: "Inter", system-ui, sans-serif; }
+
+.rule { @apply border-t border-ink/20; }
+.rule-brand { @apply border-t-2 border-brand-600; }
+
+.kicker { @apply font-label text-[11px] font-semibold uppercase tracking-[0.3em] text-brand-700; }
+
+.dropcap::first-letter {
+  float: left; font-family: "Playfair Display", Georgia, serif; font-weight: 900;
+  font-size: 4.6em; line-height: 0.8; padding-right: 0.12em; padding-top: 0.06em; color: #c2410c;
+}
+
+.btn-ink { @apply inline-flex items-center justify-center gap-2 rounded-none border border-ink bg-ink px-8 py-3.5 font-label text-xs font-semibold uppercase tracking-[0.25em] text-paper transition hover:bg-brand-700 hover:border-brand-700; }
+.btn-line { @apply inline-flex items-center justify-center gap-2 rounded-none border border-ink px-8 py-3.5 font-label text-xs font-semibold uppercase tracking-[0.25em] text-ink transition hover:border-brand-700 hover:text-brand-700; }
+.btn-wa { @apply inline-flex items-center justify-center gap-2 rounded-none border border-[#128C4B] bg-[#25D366] px-8 py-3.5 font-label text-xs font-semibold uppercase tracking-[0.25em] text-ink transition hover:bg-[#1eb85a]; }
+
+.field { @apply w-full rounded-none border border-ink/25 bg-transparent px-4 py-3 font-label text-sm text-ink placeholder:text-ink/35 focus:border-brand-600 focus:outline-none; }
+.field-label { @apply mb-2 block font-label text-[10px] font-semibold uppercase tracking-[0.3em] text-ink/60; }
+
+.editorial-link { background-image: linear-gradient(#f97316,#f97316); background-size: 0% 1px; background-repeat: no-repeat; background-position: left bottom; transition: background-size .35s ease; }
+.editorial-link:hover { background-size: 100% 1px; }

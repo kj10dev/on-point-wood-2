@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://kj10dev.github.io/on-point-wood",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
